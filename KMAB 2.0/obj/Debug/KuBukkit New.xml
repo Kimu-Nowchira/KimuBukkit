@@ -1,0 +1,137 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+KuBukkit New
+</name>
+</assembly>
+<members>
+<member name="T:KMAB_2._0.My.Resources.Resources">
+<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.ResourceManager">
+<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.Culture">
+<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대한 현재 스레드의 CurrentUICulture
+  속성을 재정의합니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.DefaultIcon">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.error_icon">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.eula">
+<summary>
+  #By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).
+#Fri Jul 31 14:08:05 KST 2015
+eula=true
+과(와) 유사한 지역화된 문자열을 찾습니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.ICON_JAR">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.ICON_ZIP">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.Logo">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.MyIcon48">
+<summary>
+  (아이콘)과(와) 유사한 System.Drawing.Icon 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.server">
+<summary>
+  #Minecraft server properties
+#Sun Feb 99 00:00:00 KST 2016
+generator-settings=
+op-permission-level=4
+allow-nether=true
+resource-pack-hash=
+level-name=world
+enable-query=false
+allow-flight=false
+announce-player-achievements=true
+server-port=25565
+max-world-size=29999984
+level-type=DEFAULT
+enable-rcon=false
+level-seed=
+force-gamemode=false
+server-ip=
+network-compression-threshold=256
+max-build-height=256
+spawn-npcs=true
+white-list=false
+spawn-animals=true
+snooper-enabled=true
+hardcore=f[나머지 문자열은 잘림]&quot;;과(와) 유사한 지역화된 문자열을 찾습니다.
+</summary>
+</member>
+<member name="P:KMAB_2._0.My.Resources.Resources.URLdata">
+<summary>
+  [default]
+slot1=Spigot
+slot2=Craftbukkit
+slot3=MCPC
+slot4=Rainbow
+slot5=Paperspigot
+
+[Spigot]
+plusdir=false
+canmod=false
+twoblock=false
+ver1=1.4.7\http://tcpr.ca/files/spigot/spigot-1.4.7-R1.1-SNAPSHOT.jar
+ver2=1.5.2\http://tcpr.ca/files/spigot/spigot-1.5.2-R1.1-SNAPSHOT.jar
+ver3=1.6.2\http://tcpr.ca/files/spigot/spigot-1.6.2-R1.1-SNAPSHOT.jar
+ver4=1.6.4\http://tcpr.ca/files/spigot/spigot-1.6.4-R2.1-SNAPSHOT.jar
+ver5=1.7.2\http://tcpr.ca/files/spigot/spigot-1.7.2-R0.4-SNAPSHOT-1339.jar
+ver6=[나머지 문자열은 잘림]&quot;;과(와) 유사한 지역화된 문자열을 찾습니다.
+</summary>
+</member>
+<member name="T:KMAB_2._0.Helpers">
+ <summary>
+ Flat UI Theme
+ Creator: iSynthesis (HF)
+ Version: 1.0.4
+ Date Created: 17/06/2013
+ Date Changed: 26/06/2013
+ UID: 374648
+ For any bugs / errors, PM me.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:KMAB_2._0.FlatAlertBox.W">
+ <summary>
+ How to use: FlatAlertBox.ShowControl(Kind, String, Interval)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:KMAB_2._0.FlatAlertBox.H">
+ <summary>
+ How to use: FlatAlertBox.ShowControl(Kind, String, Interval)
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

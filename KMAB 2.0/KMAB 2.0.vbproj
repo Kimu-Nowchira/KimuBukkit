@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08629192-0876-49A1-A1B7-32C1A7F445DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>KMAB_2._0.My.MyApplication</StartupObject>
+    <RootNamespace>KMAB_2._0</RootNamespace>
+    <AssemblyName>KuBukkit New</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>KuBukkit New.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>KuBukkit New.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\MyIcon48.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BukkitType.Designer.vb">
+      <DependentUpon>BukkitType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BukkitType.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConfigForm.Designer.vb">
+      <DependentUpon>ConfigForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flat UI.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ModTab.Designer.vb">
+      <DependentUpon>ModTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewCMDForm.Designer.vb">
+      <DependentUpon>NewCMDForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewCMDForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDownLoadTab5.Designer.vb">
+      <DependentUpon>NewDownLoadTab5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewDownLoadTab5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTab.Designer.vb">
+      <DependentUpon>PTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDownLoadTab4.Designer.vb">
+      <DependentUpon>NewDownLoadTab4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewDownLoadTab4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDownLoadTab3.Designer.vb">
+      <DependentUpon>NewDownLoadTab3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewDownLoadTab3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDownLoadTab2.Designer.vb">
+      <DependentUpon>NewDownLoadTab2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewDownLoadTab2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewForm22.Designer.vb">
+      <DependentUpon>NewForm22.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewForm22.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewHome.Designer.vb">
+      <DependentUpon>NewHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPluginsTab.Designer.vb">
+      <DependentUpon>NewPluginsTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewPluginsTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PluginsList.Designer.vb">
+      <DependentUpon>PluginsList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PluginsList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ServerSlot.designer.vb">
+      <DependentUpon>ServerSlot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ServerSlot.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UpdateForm.Designer.vb">
+      <DependentUpon>UpdateForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewLauncherTab.Designer.vb">
+      <DependentUpon>NewLauncherTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewLauncherTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VersionButton1.Designer.vb">
+      <DependentUpon>VersionButton1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VersionButton1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BukkitType.resx">
+      <DependentUpon>BukkitType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigForm.resx">
+      <DependentUpon>ConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flat UI.resx">
+      <DependentUpon>Flat UI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModTab.resx">
+      <DependentUpon>ModTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCMDForm.resx">
+      <DependentUpon>NewCMDForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDownLoadTab5.resx">
+      <DependentUpon>NewDownLoadTab5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTab.resx">
+      <DependentUpon>PTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDownLoadTab4.resx">
+      <DependentUpon>NewDownLoadTab4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDownLoadTab3.resx">
+      <DependentUpon>NewDownLoadTab3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDownLoadTab2.resx">
+      <DependentUpon>NewDownLoadTab2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewForm22.resx">
+      <DependentUpon>NewForm22.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewHome.resx">
+      <DependentUpon>NewHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPluginsTab.resx">
+      <DependentUpon>NewPluginsTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PluginsList.resx">
+      <DependentUpon>PluginsList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerSlot.resx">
+      <DependentUpon>ServerSlot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateForm.resx">
+      <DependentUpon>UpdateForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewLauncherTab.resx">
+      <DependentUpon>NewLauncherTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VersionButton1.resx">
+      <DependentUpon>VersionButton1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eula.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyIcon48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\server.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\URLdata.ini" />
+    <None Include="Resources\슬라이드2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\슬라이드1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultIcon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error_icon.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
